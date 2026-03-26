@@ -12,3 +12,13 @@ Easy to extend with new responses
 🛠️ Technologies Used
 Python
 Regular Expressions (re module)
+
+⚙️ How It Works
+User enters a message
+Input is cleaned and split into words
+Each predefined response is checked:
+Matches words with input
+Calculates probability score
+The response with the highest probability is selected
+If no good match → returns unknown response.
+
